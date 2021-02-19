@@ -1,0 +1,1111 @@
+.products__sub_title-header{
+    font-family: Amatic SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100px;
+    color: #4F4242;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.products__title-cabdybar{
+    margin-bottom: 60px;
+}
+.products__sub-title-candybar-description{
+    width: 225px;
+    display: block;
+    line-height: 70px;
+}
+.products__sub-title-img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 30px auto 0;
+}
+
+.products__candybar-order-notice{
+    max-width: 604px;
+    margin: 0 auto;
+    font-family: Kurale;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #333333;
+    margin-bottom: 90px;
+    
+}
+ .products__candybar-weight{
+        display: block;
+        font-family: Kurale;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #828282;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+.products__candybar-order-desc{
+    background: url(../img/svg/candy_bar-red-circule.svg) no-repeat left center;
+    padding-left: 30px;
+}
+.candybar-cards{
+    margin-bottom: 164px;
+}
+.candybar__wrapper{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*candybar order page*/
+/*
+.candybar__content{
+    background: yellow;
+    width: 100%;
+    height: 10px;
+    margin: 0 auto;
+
+}
+*/
+.products__content-cards{
+    max-width: 1028px;
+    position: relative;
+    margin: 0 auto 200px;
+}
+.cards-cupcake::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-01.svg) no-repeat left center;
+    width: 215px;
+    height: 292px;
+}
+.cards-cupcake::before{
+    display: block;
+    content: '';
+    position: absolute;
+    right: 76px;
+    bottom: -100px;
+    width: 2200px;
+    height: 1px;
+    border: 1px solid #7D0A41;
+}
+.products__content-card{
+    width: 331px;
+    height: 324px;
+    position: relative;
+}
+.products__element2{
+    display: block;
+    width: 287px;
+    height: 277px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+.products__element1{
+    width: 273px;
+    height: 269px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    filter: blur(4px);
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.cupcake-rgba1{
+    background: rgba(198, 148, 101, 0.5);
+}
+.products__element4{
+    display: block;
+    width: 287px;
+    height: 277px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.products__element3{
+    width: 273px;
+    height: 269px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    filter: blur(4px);
+    border-radius: 5px;
+}
+.cupcake-rgba3{
+    background: rgba(181, 47, 97, 0.5);
+}
+.card__title{
+    font-family: Caveat;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+    color: #7D0A41;
+    margin-bottom: 20px;
+}
+.card__description, .card__price{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*cakepops styles*/
+.products__content-card2{
+    position: relative;
+}
+.products__element-cakepops-2{
+    display: block;
+    margin-top: 60px;
+    width: 578px;
+    height: 218px;
+    background: linear-gradient(110.66deg, rgba(54, 170, 235, 0.5) 0.03%, rgba(218, 91, 221, 0.255) 100.03%);
+    filter: blur(4px);
+    border-radius: 5px;
+}
+.products__element-cakepops-1{
+    position: absolute;
+    top: -51px;
+    left: -57px;
+    border-radius: 5px;
+}
+.products__element-cakepops-3{
+    position: absolute;
+    top: 30px;
+    right: 27px;
+    border-radius: 5px;
+}
+.cakepops-card{
+    width: 260px;
+    margin-right: 60px;
+    
+}
+.cards-cupcake, .cards-second, .cards-trifle, 
+.cards-tartaletki, .cards-muss, .cards-merengs,
+.cards-small-bize, .cards-cheese, .cards-strobbery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards-second::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-02.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.cards-second::before, .cards-muss::before, .cards-merengs::before{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 76px;
+    bottom: -100px;
+    width: 2200px;
+    height: 1px;
+    border: 1px solid #7D0A41;
+}
+.candybar__toppers-title{
+    font-family: Caveat;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+    color: #7D0A41;
+    margin-bottom: 40px;
+}
+.candybar__toppers-content{
+    max-width: 1032px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.candybar__toppers-item{
+    max-width: 291px;
+    margin-right: 20px;
+}
+.candybar__toppers-item:last-child{
+    margin-right: 0;
+}
+.candybar__toppers-image{
+    display: block;
+    width: 290px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+.candybar__toppers-desc{
+    font-family: Kurale;    
+    font-size: 20px;
+    line-height: 38px;
+    color: #333333;
+    display: block;
+    margin-bottom: 20px;
+}
+.candybar__toppers-content::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    top: 0;
+    background: url(../img/svg/candy_bar-cupcake-03.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.cards-topper::before, .cards-tartaletki::before,
+.cards-seventh::before, .cards-small-bize::before,
+.cards-strobbery::before, .cards-twelve::before{
+    display: block;
+    content: '';
+    position: absolute;
+    right: 76px;
+    bottom: -100px;
+    width: 2200px;
+    height: 1px;
+    border: 1px solid #7D0A41;
+}
+/*asd*/
+.cards-twelve1::before{
+    left: 76px;
+    
+}
+.cards-trifle::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-04.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.cards-trifle::before, .cards-cheese::before{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 76px;
+    bottom: -100px;
+    width: 2200px;
+    height: 1px;
+    border: 1px solid #7D0A41;
+}
+.trifle-rgba1{
+    background: rgba(213, 151, 161, 0.5);
+}
+.trifle-rgba3{
+    background: rgba(230, 159, 215, 0.5);
+}
+.cards-tartaletki::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-05.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.element-tartaletki{
+    background: rgba(247, 205, 142, 0.5);
+}
+.card-muss{
+    transform: scale(-1, 1);
+}
+.cards-muss::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-06.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.muss-desc-card{
+    margin-right: 0;
+    margin-left: auto;
+    
+}
+.cards-seventh-content::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    top: 100px;
+    background: url(../img/svg/candy_bar-cupcake-07.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+
+.cards-merengs::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-08.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.small-bize-rgba{
+    background: rgba(194, 209, 248, 0.5);
+    filter: blur(4px);
+    border-radius: 5px;
+}
+/*
+.cards-small-bize{
+    justify-content: space-between;
+}
+*/
+.cards-small-bize::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-09.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.cheese-rgba1{
+    background: rgba(234, 220, 94, 0.19);
+    filter: blur(4px);
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.cheese-rgba2{
+    background: rgba(183, 228, 209, 0.5);
+    filter: blur(4px);
+    border-radius: 5px;
+}
+.cards-cheese::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-10.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.strobbery-card-item{
+    background: linear-gradient(108.2deg, rgba(230, 114, 184, 0.5) 4.38%, rgba(225, 149, 177, 0.5) 53.67%);
+    filter: blur(4px);
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.cards-strobbery::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    bottom: 0;
+    background: url(../img/svg/candy_bar-cupcake-11.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+/* cards-twelve-content*/
+.cards-twelve-content::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    top: 100px;
+    background: url(../img/svg/candy_bar-cupcake-12.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+/*asd*/
+.cards-twelve-content-new-13::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    top: 100px;
+    background: url(../img/svg/candy_bar-cupcake-03.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.cards-twelve-content-new-14::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -244px;
+    top: 100px;
+    background: url(../img/svg/candy_bar-cupcake-04.svg) no-repeat left center;
+    width: 220px;
+    height: 292px;
+}
+.cards-twelve-content{
+    justify-content: space-around;
+}
+
+/*cart styles*/
+.cart__wrapper{
+    max-width: 815px;
+    margin: 0 auto;
+}
+.candybar__cart-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto 113px;
+    
+}
+.candybar__remove-button{
+    position: absolute;
+    background: #F41F1F;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    right: -107px;
+    top: 86px;
+    cursor: pointer;
+}
+.candybar__remove-button-item1{
+    display: block;
+    border: 2px solid #FFFFFF;
+    transform: translateY(-50%) rotate(-46.4deg);
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+}
+.candybar__remove-button-item2{
+    display: block;
+    border: 2px solid #FFFFFF;
+    transform: translateY(-50%) rotate(46.4deg);
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+}
+div .modal-desc1{
+    width: 430px;
+    margin-right: 0;
+}
+.candybar__cart-content::after{
+    display: block;
+    content: '';
+    width: 200vw;
+    height: 1px;
+    border: 1px solid #7D0A41;
+    position: absolute;
+    bottom: -100px;
+    left: -100vw;
+}
+.candybar__order-sum-line{
+    max-width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 190px auto;
+}
+.candybar__order-sum-price-val,
+.candybar__order-sum-price-uah{
+    color: #DD978F;
+    font-family: Kurale;
+    font-size: 30px;
+    line-height: 38px;
+    
+}
+.candybar__order-sum-price-desc{
+    font-family: Kurale;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+    margin-right: 42px;
+}
+/*get-order styles*/
+
+.candybar__get-order-desc{
+    font-family: Caveat;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #DD978F;
+    margin-bottom: 82px;
+}
+.candybar__get-order-content{
+    max-width: 876px;
+    margin: 0 auto 100px;
+}
+.candybar__get-order-info{
+    width: 528px;
+    margin-bottom: 50px;
+}
+.candybar__get-order-info-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.candybar__get-order-info-title{
+/*    margin-right: 15px;*/
+    font-family: Kurale;
+    font-size: 20px;
+    line-height: 38px;
+    color: #333333;
+    display: block;
+}
+.candybar__get-order-info-input{
+    background: #FCF5F4;
+    border-radius: 5px;
+    border: none;
+    font-family: Kurale;
+    font-size: 16px;
+    line-height: 38px;
+    color: #4F4F4F;
+    padding-left: 15px;
+    width: 423px;
+    display: block;
+}
+.input-date{
+    width: 212px;
+}
+.candybar__get-order-delivery{
+    border: none;
+    background: #FCF5F4;
+    border-radius: 5px;
+    border: none;
+    font-family: Kurale;
+    font-size: 16px;
+    line-height: 38px;
+    color: #4F4F4F;
+    padding-left: 15px;
+    width: 353px;
+    height: 40px;
+    display: block;  
+}
+.input-address{
+    width: 353px;
+}
+.candybar__get-order-price-item{
+    position: relative;
+    margin-top: 49px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.candybar__get-order-price-item-name{
+    display: block;
+    font-family: Kurale;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+    margin-right: 42px;
+}
+.candybar__get-order-price-item-value,
+.candybar__get-order-price-item-uah{
+    display: block;
+    font-family: Kurale;
+    font-size: 30px;
+    line-height: 38px;
+    color: #DD978F;
+}
+.candybar__get-order-price-item-value{
+    margin-right: 10px;
+}
+.candybar__get-order-comment-desc{
+    font-family: Caveat;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #DD978F;
+    margin-bottom: 50px;
+}
+.candybar__get-order-comment{
+    width: 100%;
+    height: 200px;
+    background: #FCF5F4;
+    border-radius: 5px;
+    border: none;
+    font-family: Kurale;
+    font-size: 20px;
+    line-height: 38px;
+    color: #BDBDBD;
+    padding-left: 20px;
+}
+.candybar__get-order-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+.candybar__get-order-botton{
+    width: 182px;
+    height: 40px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    font-family: Kurale;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.error-show{
+    position: absolute;
+    top: -35px;
+    left: 0;
+    color: red;
+    display: none;
+}
+.active-order-button{
+    background: #DD978F !important;
+}
+.botton-back{
+    background: #DD978F;
+}
+.botton-get{
+    background: #BDBDBD;
+}
+/*congratulation styles*/
+
+.candybar__congratulation{
+    margin: 60px auto ;
+    max-width: 605px;
+}
+.candybar__congratulation-desc{
+    font-family: Caveat;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #DD978F;
+    margin-bottom: 50px;
+}
+.candybar__congratulation-image{
+    display: block;
+    margin: 0 auto;
+}
+.candybar__congratulation-span{
+    color: #881a0d;
+}
+
+/*cart count*/
+.header__cart-count{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #F4521F;
+    border: 1px solid #4F4242;
+    font-family: Kurale;
+    font-size: 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 14px;
+}
+.header__cart-wrapper{
+    position: relative;
+    cursor: pointer;
+}
+/*media starts*/
+@media screen and (max-width: 1026px){
+
+    .cart__wrapper .candybar__remove-button{
+        right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 780px){
+    .candybar__toppers-item{
+        margin-bottom: 30px;
+    }
+    .cart__wrapper .candybar__remove-button{
+/*        right: 20px;*/
+    }
+    .header__cart-wrapper{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .candybar__get-order-buttons{
+        justify-content: center;
+    }
+    .candybar__get-order-botton{
+        margin-bottom: 20px;
+    }
+    .products__candybar-order-desc{
+        margin-bottom: 40px;
+    }
+    .candybar-cards{
+        margin-bottom: 0;
+    }
+     
+/*    candybar_order   */
+    
+/*    type1 cupcake*/
+    .content-card-type1:first-child{
+        display: none;
+    }
+    .content-card-type1:last-child{
+        position: absolute;
+        top: 140px;
+        left: auto;
+    }
+    
+    .cards-cupcake, .cards-second, .cards-trifle, .cards-tartaletki, .cards-muss, .cards-merengs,
+    .cards-small-bize, .cards-cheese, .cards-strobbery{
+        width: 100%;
+        height: 430px;
+    }
+    .products__element2, .products__element4, 
+    .products__element-cakepops-1{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 279px;
+        height: 270px;
+        z-index: 1;
+    }
+    .products__element3{
+        width: 300vw;
+        left: -100vw;
+        top: 21px;
+    }
+    .content-card-type1 .products__candybar-order-notice{
+        margin-bottom: 10px;
+    }
+    .products__candybar-order-notice{
+        margin-bottom: 0;
+    }
+    .cards-cupcake, .cards-trifle{
+        position: relative;
+    }
+    .cards-cupcake::after,
+    .cards-second::after,
+    .cards-trifle::after,
+    .cards-tartaletki::after,
+    .cards-muss::after,
+    .cards-merengs::after,
+    .cards-small-bize::after,
+    .cards-cheese::after,
+    .cards-strobbery::after,
+    .cards-twelve-content::after
+    {      /* 1 2 3 4 5 6 7 8 9 10 11 12 */
+        left: -0;
+        top: 0;
+        width: 55px;
+        height: 60px;
+        background-size: contain;
+    }
+/*asd*/
+    .cards-twelve1::before, .cards-twelve::before{
+        bottom: -10px;
+        
+    }
+    .cards-twelve1::before{
+        left: 0;
+    }
+    .cards-twelve::before{
+        right: 0;
+    }
+    .cards-twelve{
+        margin-bottom: 60px;
+    }
+
+    .products__card-price.card__price{
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .products__card-order.card__description{
+        font-size: 18px;
+        line-height: 27px;
+        color: #333333;
+        margin-bottom: 350px;
+    }
+    .cards-cupcake .products__card-order.card__description,
+    .cards-trifle .products__card-order.card__description{
+        margin-bottom: 370px;
+    }
+    .cards-muss .products__card-order.card__description,
+    .cards-merengs .products__card-order.card__description,
+    .cards-small-bize .products__card-order.card__description,
+    .cards-cheese .products__card-order.card__description,
+    .cards-strobbery .products__card-order.card__description{
+        margin-bottom: 330px;
+    }
+    .slider-cicle1{
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: #C4C4C4;
+        position: absolute;
+        bottom: 10px;
+        left: 46%;
+        border-radius: 4px;
+    }
+    .slider-cicle1, .slider-cicle2{
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: #C4C4C4;
+        position: absolute;
+        bottom: 10px;
+        right: 46%;
+        border-radius: 4px;
+    }
+    .cards-cupcake::before,
+    .cards-tartaletki::before,
+    .cards-seventh::before,
+    .cards-small-bize::before,
+    .cards-strobbery::before
+    {
+        bottom: -170px;
+        right: 0;
+    }
+/*    type2 cakepops*/
+    
+    .products__element-cakepops-3{
+        display: none;
+    }
+    .products__element-cakepops-1{
+        top: 44px;
+    }
+    .products__element-cakepops-2{
+        height: 270px;
+    }
+    .cakepops-card{
+        margin-right: 0;
+    }
+    .products__content-card2{
+        position: absolute;
+        top: 100px;
+        left: auto;
+    }
+    .cards-second::before,
+    .cards-trifle::before,
+    .cards-muss::before,
+    .cards-merengs::before,
+    .cards-cheese::before{
+        bottom: -170px;
+        left: 0;
+    }
+    .cards-second .slider-cicle1,
+    .cards-tartaletki .slider-cicle1,
+    .cards-muss .slider-cicle1,
+    .cards-small-bize .slider-cicle1,
+    .cards-strobbery .slider-cicle1
+    {
+        bottom: -20px;
+        left: 47.8%;
+    }
+    .cards-second .slider-cicle2,
+    .cards-tartaletki .slider-cicle2,
+    .cards-muss .slider-cicle2,
+    .cards-small-bize .slider-cicle2,
+    .cards-strobbery .slider-cicle2{
+        bottom: -20px;
+        right: 47.8%;
+    }
+    .cards-muss .slider-cicle1,
+    .cards-strobbery .slider-cicle1{
+        left: 51%;
+    }
+    .cards-muss .slider-cicle2,
+    .cards-strobbery .slider-cicle2{
+        right: 51%;
+    }
+    .circle-active{
+        background: #828282;
+    }
+    
+/*    type3 toppers*/
+    .candybar__toppers-desc{
+        line-height: 30px;
+    }
+    .candybar__toppers-title,
+    .products__content-card.content-card-type1 .card__title,
+    .cards-small-bize .card__title,
+    .cards-strobbery .card__title,
+    .muss-desc-card .card__title{
+        line-height: 40px;
+    }
+    .muss-desc-card .card__title{
+        width: 240px;
+    }
+    .candybar__toppers-image{
+        width: 280px;
+        height: 270px;
+    }
+    .candybar__toppers-item{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 50px;
+    }
+    .candybar__toppers-title{
+        margin-left: 70px;
+        text-align: start;
+    }
+/*
+    .cards-seventh .candybar__toppers-title{
+        margin-left: 0;
+        text-align: center;
+    }
+*/
+    .cards-topper .candybar__toppers-content::after{
+        left: 0px;
+        top: -120px;
+        width: 55px;
+        height: 60px;
+        background-size: contain;
+    }
+    .cards-seventh-content::after{
+        left: 0px;
+        top: 0;
+        width: 55px;
+        height: 60px;
+        background-size: contain;
+    }
+    .candybar__toppers-item:last-child{
+        margin-right: auto;
+    }
+    .candybar__toppers-desc{
+        margin-bottom: 10px;
+    }
+    .cards-topper{
+        height: 1480px;
+    }
+    .cards-seventh{
+        height: 1600px;
+    }
+    .cards-topper::before{
+        right: 0;
+        bottom: -160px;
+    }
+    .products__content-cards:last-child{
+        margin-bottom: 0;
+    }
+    
+/*    cart-styles   */
+    .cart__wrapper{
+/*        margin: 0 auto;*/
+    }
+    .candybar__cart-content .modal_image{
+        border-radius: 5px;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .cart__wrapper .candybar__order-modal-desc{
+        margin-top: 20px;
+    }
+    .cart__wrapper .candybar__remove-button{
+        right: 7px;
+        top: -10px;
+    }
+    .candybar__cart-content::after{
+        bottom: -20px;
+    }
+    .cart__wrapper .candybar__cart-content{
+        margin-bottom: 80px;
+    }
+    .candybar__order-sum-line{
+        margin: 0 auto;
+    }
+    .candybar__order-sum-price{
+        margin: 0 auto;
+    }
+    
+/*    get-order styles   */
+    
+    .candybar__get-order .products__title-header{
+        font-size: 45px;
+        line-height: 60px;
+        max-width: 160px;
+        margin: 0 auto 40px;
+    }
+    .candybar__get-order .candybar__get-order-desc{
+        font-size: 25px;
+        line-height: 31px;
+        margin-bottom: 50px;
+    }
+    .candybar__get-order .candybar__get-order-content{
+        margin-left: 10px;
+    }
+    .candybar__get-order-info-item{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .candybar__get-order .candybar__get-order-info-title{
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 10px;
+        
+    }
+    .candybar__get-order-info-input,
+    .candybar__get-order-delivery{
+        width: 280px;
+    }
+    .candybar__get-order-info{
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .candybar__get-order-price-item{
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 260px;
+    }
+    .candybar__get-order-price-item-name,
+    .candybar__get-order-price-item-uah{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .candybar__get-order-comment-desc{
+        font-size: 25px;
+        line-height: 31px;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .candybar__get-order-content{
+        margin-bottom: 50px;
+    }
+    .products__wrapper.candybar__wrapper{
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .candybar__congratulation-desc{
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .candybar__congratulation{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .candybar__congratulation-desc{
+        margin-bottom: 30px;    
+    }
+    
+    
+    
+
+    
+}
+
+@media screen and (max-width: 340px){
+    .candybar__wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
+}

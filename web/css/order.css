@@ -1,0 +1,480 @@
+/* order styles start */
+.order__modify{
+    padding: 0 10px;
+}
+.order__title{
+    text-align: center;
+}
+.order__title-header{
+    margin-bottom: 30px;
+    font-family: Amatic SC;
+    font-size: 80px;
+    line-height: 100px;
+    color: #4F4242;
+}
+.order__wrapper{
+    margin: 110px 0 80px;
+}
+.order__title{
+    margin-bottom: 50px;
+}
+.order__status{
+    display: flex;
+    flex-wrap: wrap;
+    height: 190px;
+    margin-bottom: 56px;
+}
+.order__status-number{
+    background: #7D0A41;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.order__status-item{
+    display: flex;
+    align-items: center;
+    padding-right: 74px;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+.order__status-item::before{
+    content: '';
+    width: 6vw;
+    height: 1px;
+    background: #7D0A41;
+    display: block;
+}
+/*.order__status-item:last-child{
+    padding-right: 64px;
+}*/
+.first{
+    background: url(../img/svg/order_1-cake.svg) no-repeat center right;
+}
+.second{
+    background: url(../img/svg/order_2-cake.svg) no-repeat center right;
+}
+.third{
+    background: url(../img/svg/order_3-cake.svg) no-repeat center right;
+}
+.forth{
+    background: url(../img/svg/order_4-cake.svg) no-repeat center right;
+}
+.fifth{
+    background: url(../img/svg/order_5-cake.svg) no-repeat center right;
+}
+.sixth{
+    background: url(../img/svg/order_6-cake.svg) no-repeat center right;
+}
+/*.seventh{
+    background: url(../img/svg/order_7-cake.svg) no-repeat center right;
+}*/
+.first-active{
+    background: url(../img/svg/order-active_1-cake.svg) no-repeat center right;  
+}
+.second_active{
+    background: url(../img/svg/order-active_2-cake.svg) no-repeat center right;  
+}
+.third-active{
+    background: url(../img/svg/order-active_3-cake.svg) no-repeat center right;  
+}
+.forth-active{
+    background: url(../img/svg/order-active_4-cake.svg) no-repeat center right;  
+}
+.fifth-active{
+    background: url(../img/svg/order-active_5-cake.svg) no-repeat center right;  
+}
+.sixth-active{
+    background: url(../img/svg/order-active_6-cake.svg) no-repeat center right;  
+}
+/*.seventh-active{
+    background: url(../img/svg/order-active_7-cake.svg) no-repeat center right;  
+}*/
+.order__status-number-active{
+    background: #DD978F;
+}
+
+.order__description{
+    text-align: center;
+    font-family: Caveat;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #DD978F;
+    margin-bottom: 100px;
+}
+.order__content{
+    margin-bottom: 109px;
+}
+
+/*1*/
+.order__content-cards-first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1028px;
+    margin: 0 auto 101px;
+    font-family: Kurale;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+}
+
+.order-cake{
+    background: url(../img/svg/order_3-cake.svg) no-repeat top center;
+}
+.order-cupcake{
+    background: url(../img/svg/order-cupcake.svg) no-repeat top center;
+}
+.order-candybar{
+    background: url(../img/svg/order-candybar.svg) no-repeat top center;
+}
+.order__content-card{
+    display: block;
+    padding-top: 110px;
+    cursor: pointer;
+    position: relative;
+}
+.order__content-filling{
+    display: block;
+    padding-top: 0;
+/*    cursor: pointer;*/
+    position: relative;
+    font-family: Kurale;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    visibility: hidden;
+}
+.order__content-card:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #BDBDBD;
+}
+.order__content-card:active,
+.order__content-card:focus,
+.order__content-card-active{
+    text-decoration-line: underline;
+    color: #333333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/*2 */
+.order__content-cards-second{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1028px;
+    margin: 0 auto 101px;
+    font-family: Kurale;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+}
+.card-second{
+    padding-top: 0;
+    position: relative;
+}
+.first_active::after{
+/*    display: block;
+    content: 'Для замовлення candybar зв’яжіться з нами.';
+    position: absolute; 
+    width: 280px;
+    height: 72px;
+    top: 150px;
+    left: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;*/
+}
+.second-active::after{
+    display: block;
+    content: 'Для уточнення деталей оформлення вашого замовлення ми з Вами зв’яжемось.';
+    position: absolute; 
+    width: 280px;
+    height: 72px;
+    top: 40px;
+    left: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+/*2-2*/
+.order__content-cards-second-filling{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1028px;
+    margin: -50px auto 101px;
+    font-family: Kurale;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+}
+
+/* 3 */
+.order__content-cards-third{
+    width: 816px;
+    height: 200px;
+    background: rgba(221, 151, 143, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.order__third-item{
+    display: flex;
+}
+.order__third-value {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.order__third-value-item, .order__third-kg,
+.order__third-title{
+    display: block;
+}
+.order__third-title{
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+    margin-right: 40px;
+}
+.order__third-kg{
+    font-size: 20px;
+    line-height: 38px;
+    color: #4F4F4F;
+    margin-left: 20px;
+}
+.order-minus, .order-plus{
+    cursor: pointer;
+}
+/* 4*/
+.order__content-cards-fourth{
+    width: 800px;
+    height: 200px;
+    background: rgba(221, 151, 143, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.order__label{
+    display: block;
+    font-family: Kurale;
+}
+.order-name, .order-number, .order-date{
+    border: none;
+    font-family: Kurale;
+    font-size: 16px;
+    
+}
+.product-chosen::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px; /* 100%*/
+    height: 50px; /* 100%*/
+    /*z-index: 100;*/
+    background: url(../img/svg/order-chosen-icon.svg) no-repeat top right;
+}
+
+/*buttons order*/
+.order__buttons{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1028px;
+    margin: 0 auto;  
+    cursor: pointer;
+}
+.order__button:hover{
+    background: linear-gradient(180deg, #DD978F 0%, #FB7E70 100%);
+    border-radius: 20px;
+}
+.order__button:focus,
+.order__button:active{
+    background: #DD7063;
+}
+
+.order__button{
+    display: block;
+    width: 182px;
+    height: 40px;
+    margin: 0 20px;
+    background: #BDBDBD;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Kurale;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.order__content-cards-sixth{
+    width: 800px;
+    background: rgba(221, 151, 143, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.order__contnet-item{
+    margin: 0 auto 30px;
+/*    padding-top: 20px;*/
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+}
+.order__contnet-item:last-child{
+    margin-bottom: 0px;
+}
+.order__content-complete{
+    display: block;
+}
+
+.order-name{
+    font-size: 16px;
+    /*text-decoration: underline;*/
+    margin: 0;
+}
+.order-value{
+    margin: 0 0 0 auto;
+}
+.filling-pointer{
+    cursor: pointer;
+}
+.forward-button{
+    position: relative;
+}
+/*.show-error{
+    display: block;
+}*/
+.error-container{
+    /*display: none;*/
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    width: 180px;
+    height: 30px;
+    color: red;
+    /*background: #fdf8ed;*/
+    border-radius: 8px;
+    text-align: start;
+    font-size: 14px;
+    line-height: 16px;
+}
+/* order styles end */
+
+/*media start*/
+@media screen and (max-width: 932px){
+    .order__title{
+        margin-bottom: 50px;
+    }
+    .order__status{
+        height: 220px;
+        margin-bottom: 46px;
+    }
+    .order__description{
+        margin: 0 20px 46px;
+    }
+    .order__status-item{
+        margin-bottom: 12px;
+    }
+    .order__content-cards-third{
+        width: 320px;
+    }
+    .order__content-cards-fourth{
+        width: 710px;
+    }
+    .order__content-cards-sixth{
+        width: 400px;
+    }
+    .order__content-complete{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 720px){
+      .order__content-cards-fourth{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 600px){
+    .order__status{
+        height: 280px;
+    }
+    .order__content-card{
+        margin: 0 20px 40px;
+        padding-top: 70px;
+    }
+    .order__content-cards-first{
+        margin-bottom: 30px;
+    }
+    .order__content{
+        margin-bottom: 50px;
+    }
+    .second-active::after{
+        font-size: 10px;
+        line-height: 16px; 
+        width: 140px;
+        top: 120px;
+    }
+    .order__content-card{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .order-cake{
+        width: 91px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 415px){
+    .order__status{
+        height: 380px;
+    }
+    .order__content-cards-sixth{
+        width: 300px;
+    }
+    .order__contnet-item{
+        display: block;
+    }
+    .order__content-complete{
+        margin: 0 auto;
+        max-width: 260px;
+    }
+}
+
+/*.order__content-cards-first{
+    display: none;
+}
+.order__content-cards-2{
+    display: block;
+}
+.order__content-cards-third{
+    display: none;
+}
+.order__content-cards-fourth{
+    display: none;
+}*/
+.inactive-status{
+    display: none;
+}
+.order__content{
+    transition: 0.4s;
+}
