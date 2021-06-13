@@ -59,7 +59,8 @@ class Orderitems extends \yii\db\ActiveRecord
         if($this->type == -1){
             return '-';
         }else{
-            return Product::findOne($this->type)->name;
+//            return Product::findOne($this->type)->name;
+            return Filling::findOne($this->product_id)->name;
         }
     }
     
@@ -67,12 +68,14 @@ class Orderitems extends \yii\db\ActiveRecord
         
         if($this->type == -1){
             $model = Product::findOne($this->product_id);
-            
+            $img = $model->getImage();
+            return "<img src='{$img->getUrl('x100')}'>";
         }else{
-            $model = Product::findOne($this->type);
+            return "<img style='width:100px' src='/img/". Yii::$app->params['fillingCandybarCategory'][$this->type]['img'] ."'>";
+//            $model = Product::findOne($this->type);
         }
-        $img = $model->getImage();
-        return "<img src='{$img->getUrl('x100')}'>";
+        
+        
     }
     
 }

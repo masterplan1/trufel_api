@@ -18,6 +18,9 @@ $config = [
             'class' => 'app\modules\admin\Module',
             'defaultRoute' => 'default/index',
         ],
+        'api' => [
+            'class' => 'app\modules\api\Module',
+        ],
         'yii2images' => [
             'class' => 'rico\yii2images\Module',
             //be sure, that permissions ok 
@@ -31,6 +34,9 @@ $config = [
     ],
     'components' => [
         'request' => [
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ],
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'unWS6UPE8NqKDtIhRlPS9P7IaLy0Ld4Z',
             'baseUrl' => '',
@@ -59,11 +65,14 @@ $config = [
                 'encryption' => 'tls',
             ],
         ],
+        'sendMailer' => [
+            'class' => \app\components\MailComponent::class
+        ],
 //        'mailer' => [
 //            'class' => 'yii\swiftmailer\Mailer',
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
-            // for the mailer to send real emails.
+            // for the mailer to send real emails.587
 //            'useFileTransport' => true,
 //        ],
         'log' => [
@@ -81,7 +90,27 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '/product/category/<id:\d+>' => '/product/category'
+                '/product/category/<id:\d+>' => '/product/category',
+                [
+                    'class' => \yii\rest\UrlRule::class,
+                    'pluralize' => false,
+                    'controller' => ['api/prod']
+                ],
+                [
+                    'class' => yii\rest\UrlRule::class,
+                    'pluralize' => false,
+                    'controller' => ['api/order']
+                ],
+                [
+                    'class' => yii\rest\UrlRule::class,
+                    'pluralize' => false,
+                    'controller' => ['api/ordercart']
+                ],
+                [
+                    'class' => yii\rest\UrlRule::class,
+                    'pluralize' => false,
+                    'controller' => ['api/comment']
+                ]
             ],
         ],
         

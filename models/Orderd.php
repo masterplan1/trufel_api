@@ -6,7 +6,7 @@ use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\Expression;
 use yii\db\ActiveRecord;
-
+use app\models\Comments;
 /**
  * This is the model class for table "orderd".
  *
@@ -43,6 +43,15 @@ class Orderd extends ActiveRecord {
                 [['weight', 'total_price'], 'number'],
                 [['date', 'customer_name', 'customer_phone'], 'string', 'max' => 255],
         ];
+    }
+    
+    public function afterSave($insert, $changedAttributes) {
+        if($insert){
+            $params = ['customer_name' => $this->customer_name, 'customer_phone' => $this->customer_phone];
+            Yii::$app->sendMailer->send($params);
+//            $this->sendMail($this);
+        }
+        parent::afterSave($insert, $changedAttributes);
     }
 
     public function behaviors() {
@@ -82,13 +91,13 @@ class Orderd extends ActiveRecord {
         return $this->save();
     }
     
-    public static function sendMail(){
-        Yii::$app->mailer->compose()
-                ->setFrom('masterplan1804@gmail.com')
-                ->setTo(Yii::$app->params['adminEmail'])
-                ->setSubject('Нове замовлення')
-                ->setTextBody('Тест повідомлення')
-                ->send();
-    }
+//    public static function sendMail($params){
+//        Yii::$app->mailer->compose('order', ['order' => $params])
+//                ->setFrom('masterplan1804@gmail.com')
+//                ->setTo(Yii::$app->params['adminEmail'])
+//                ->setSubject('Нове замовлення')
+//                ->setTextBody('Тест повідомлення')
+//                ->send();
+//    }
 
 }

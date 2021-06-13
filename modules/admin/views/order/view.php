@@ -83,7 +83,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <thead>
                 <tr>
                     <th>Назва</th>
-                    <th>Оформлення</th>
+                    <th>Начинка</th>
                     <th>Фото</th>
                     <th>Ціна</th>
                     <th>кількість</th>

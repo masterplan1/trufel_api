@@ -16,7 +16,7 @@ $this->title = 'Di._.Cake';
                 <p class="intro__description">
                     Скуштувавши це, ви залишитеся &nbsp; з нами назавжди!
                 </p>
-                <a href="#!" class="intro__link">Замовити</a>
+                <a href="#!" class="intro__link"><span class="intro__link-title">Замовити</span></a>
            </div>
            <div class="intro__phone-wrapper">
               <img src="./img/svg/telegram-icon.svg" alt="telegram" class="intro__telegram-icon phone"><img src="./img/svg/viber-icon.svg" alt="viber" class="intro__viber-icon phone">

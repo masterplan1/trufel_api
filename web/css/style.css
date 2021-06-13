@@ -716,6 +716,10 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
+.intro__link-title{
+	display: block;
+	margin-top: 3%;
+}
 .intro__phone-wrapper{
     position: absolute;
     left: 103px;

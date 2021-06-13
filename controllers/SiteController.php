@@ -57,6 +57,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $order = new \app\models\Orderd();
+        $order->sendMail();
 //        $hash = Yii::$app->getSecurity()->generatePasswordHash('');
 //        echo $hash;
 //        exit;
@@ -119,6 +121,31 @@ class SiteController extends Controller
     public function actionContact()
     {
         return $this->render('contact');
+    }
+    
+    public function actionBatch(){
+        $arr = [
+            [
+                'name' => 'Aladin',
+                'age' => 1
+            ],
+            [
+                'name' => 'Aladin2',
+                'age' => 12
+            ],
+            [
+                'name' => 'Aladin3',
+                'age' => 13
+            ]
+        ];
+        $names = \yii\helpers\ArrayHelper::getColumn($arr, 'name');
+        $ages = \yii\helpers\ArrayHelper::getColumn($arr, 'age');
+        $asd = ['asd', 'qwe', 'qwe'];
+        echo '<pre>';
+        print_r($names);
+        print_r($asd);
+        echo '</pre>';
+        exit;
     }
     
 }

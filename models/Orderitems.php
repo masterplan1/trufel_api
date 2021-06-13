@@ -41,5 +41,16 @@ class Orderitems extends \yii\db\ActiveRecord
     public function getOrdercart(){
         return $this->hasOne(Ordercart::class, ['id' => 'order_id']);
     }
+  
+    public function apiItemSave($item, $orderId){
+        $this->order_id = $orderId;
+        $this->type = $item['type'] ?? -1;
+        $this->product_id = $item['product_id'] ?? null;
+        $this->name = $item['name'];
+        $this->price = $item['price'];
+        $this->qty_item = $item['qty_item'];
+        $this->sum_item = $item['sum_item'];
+        $this->save();
+    }
 
 }

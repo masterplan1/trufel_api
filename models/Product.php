@@ -98,5 +98,32 @@ class Product extends \yii\db\ActiveRecord
             return [$fillingCatIds, $fillings];
         }  
     }
+    
+//    public static function AddPicture($productsByCategory){
+//        if($productsByCategory){
+//            
+//            $productsWithImages = [];
+//            $i = 0;
+//            foreach ($productsByCategory as $item){
+//                $img = $item->getImage();
+//                
+//                $productsWithImages[$i]['name'] = $item->name;
+//                $productsWithImages[$i]['id'] = $item->id;
+//                $productsWithImages[$i]['category_id'] = $item->category_id;
+////                $productsWithImages[$i]['description'] = $item->description;
+//                $productsWithImages[$i]['image'] = $img->getUrl();
+//                $i++;
+//            }
+//            return [
+//                'success' => true,
+//                'items' => $productsWithImages,
+//            ];
+//        }else{
+//            return [
+//                'success' => false,
+//                'errors' => 'error',
+//            ];
+//        }
+//    }
 
 }
